@@ -1,5 +1,5 @@
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.9"
 ignore_missing_imports = true
 files = "dinov3"
 exclude = '''(?x)(
@@ -35,7 +35,7 @@ notes = [
 
 [tool.ruff]
 line-length = 120
-target-version = "py311"
+target-version = "py39"
 
 [tool.ruff.lint]
 ignore = ["E203", "E501"]

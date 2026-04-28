@@ -15,7 +15,7 @@ DESCRIPTION = ""
 
 URL = "https://github.com/facebookresearch/dinov3"
 AUTHOR = "Meta AI"
-REQUIRES_PYTHON = ">=3.11"
+REQUIRES_PYTHON = ">=3.9.6"
 HERE = Path(__file__).parent
 
 
@@ -79,7 +79,7 @@ setup(
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
         "License :: Other/Proprietary License",
-        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.9",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
