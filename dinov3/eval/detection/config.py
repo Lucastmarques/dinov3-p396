@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from .models.position_encoding import PositionEncoding
 
 
-@dataclass(kw_only=True)
+@dataclass
 class DetectionHeadConfig:
     num_classes: int = 91  # 91 classes in COCO
     # Deformable DETR tricks
